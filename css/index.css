@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Fredoka+One&family=Gruppo&family=Indie+Flower&family=Lato:wght@300&family=Montserrat:wght@400;900&family=Orbitron:wght@400;600&family=Oswald:wght@200;700&family=Quantico:wght@400;700&family=Red+Rose:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;900&family=Noto+Sans:wght@500;900&family=Open+Sans:wght@300;400;500&family=Orbitron:wght@400;600&family=Oswald:wght@400;600&family=Poppins:wght@200;300;700;800;900&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+   
+}
+/* nav section */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0 0 80px;
+}
+nav img[src="./images/logo.svg"]{
+    cursor: pointer;
+    width: 100px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-family: 'poppins';
+    font-size: 20px;
+}
+.nav-items:hover{
+    color:#eb592c ;
+}
+nav div h5:first-child{
+    color:#eb592c;
+    font-style: bold;
+    font-weight: 900;
+}
+nav div h5:first-child:hover{
+    color:#1f1f1f;
+}
+nav img[src="./images/actions.svg"]{
+    width: 250px;
+}
+
+/* intro-section */
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 75px;
+}
+
+/* Left section */
+
+.left-section h3{
+    font-size: 37px;
+    font-family: 'poppins';
+    font-weight: 450;
+    margin-top: 75px;
+}
+.left-section h3 img{
+    width: 50px;
+}
+
+.left-section h1{
+    font-family: 'Fredoka One';
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.sub-headlines{
+    margin-left: 70px;
+    margin-top: 35px;
+}
+.sub-headline{
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sub-headline img{
+    background-color:#d94b09;
+    border-radius: 50%;
+    width: 27px;
+    padding: 5px;
+    margin-right: 9px;
+}
+
+.text{
+    font-family: 'poppins';
+    font-size: 14px;
+    color: #797575;
+    margin-top: 40px;
+    width: 650px;
+}
+
+/* buttons */
+
+.action-btns{
+    display: flex;
+   
+}
+.action-btn{
+    background-color:#d94b09;
+    font-family: 'poppins';
+    padding: 15px 37px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 50px;
+  
+}
+.action-btns :nth-child(2){
+    margin-left: 25px;
+}
+
+/* Right section */
+
+.right-section{
+    float:right;
+}
+.right-section .action-btn{
+    padding: 15px 30px;
+    margin-left: 160px;
+
+}
+.headphone-div img[src="./images/discount.svg"]{
+    width: 150px;
+}
+.headphone-div img[src="./images/headphones.jpg"]{
+    width: 500px;
+    bottom: 50px;
+    margin-right: 50px;
+}
+.discount{
+    position: absolute;
+    top: 350px;
+    right: 510px;
+}
+.discount-content{
+    position: absolute;
+    top:380px;
+    right: 535px;
+    color: #fff;
+    text-align: center;
+}
+.discount-content h4{
+    font-size: 15px;
+    font-family: 'popins';
+
+}
+.discount-content h1{
+    font-size: 45px;
+    font-family: 'Fredoka One';
+}
+
+/* Dots */
+.dots{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 180px;
+    width: 140px;
+}  
+ .dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+} 
+ .yellow-dot {
+    background-color: #FAD02E;
+}
+.tomato-dot {
+    background-color: #d94b09;
+}
+.black-dot {
+    background-color: #1f1f1f;
+}
+
+
+
+
+
+
+
+
+
+
